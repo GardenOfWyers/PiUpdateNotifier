@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Print the message
+echo ""
+echo "The list of available updates is more than a week old."
+echo "To check for new updates run: sudo apt update"

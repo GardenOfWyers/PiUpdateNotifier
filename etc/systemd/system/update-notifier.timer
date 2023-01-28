@@ -1,0 +1,9 @@
+[Unit]
+Description=Updates MOTD notification regarding available updates daily
+
+[Timer]
+OnCalendar=*-*-* 20:00
+Persistent=true
+ 
+[Install]
+WantedBy=timers.target

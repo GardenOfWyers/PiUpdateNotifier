@@ -1,0 +1,7 @@
+[Unit]
+Description=MOTD notification regarding available updates
+After=network.target
+
+[Service]
+ExecStart=/usr/lib/update-notifier/update-motd-updates-available
+Type=oneshot
